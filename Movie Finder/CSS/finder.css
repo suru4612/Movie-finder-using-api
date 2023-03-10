@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'lucia sans regular', 'lucia grande', 'lucia sans unicode', geneva verdana, sans-serif;
+    background-color: rgb(233, 233, 233);
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(19, 19, 56);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.full_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-input{
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 10px 20px;
+    border: 1px solid grey;
+    margin-right: 20px;
+}
+
+.form-input:focus{
+    background-color: white;
+}
+
+.search{
+    border: none;
+    outline: none;
+    background-color: rgb(19, 19, 56);
+    padding: 10px 20px;
+    color: white;
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.movie-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'lucia sans regular', 'lucia grande', 'lucia sans unicode', geneva verdana, sans-serif;
+    background-color: rgb(19, 19, 56);
+    margin: 20px;
+    padding: 30ox;
+    width: 700px;
+}
+
+.movie-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: 0px 20px;
+}
+
+.value{
+    font-size: 15px;
+    width: 200px;
+}
+
